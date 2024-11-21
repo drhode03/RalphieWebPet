@@ -45,8 +45,8 @@ function createSitePet(gfx) {
   };
 
   var update = () => {
-    let bgX = -64 * frame;
-    let bgY = -64 * anim;
+    let bgX = -64 * frame - 10;
+    let bgY = -64 * anim + 10;
     let pos = `${bgX}px ${bgY}px `;
     ele.style.backgroundPosition = pos;
     frame += 1;
